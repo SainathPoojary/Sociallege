@@ -10,7 +10,7 @@
 body {
   font-family: "Montserrat", sans-serif;
   height: 100vh;
-  background-color: #dadada;
+  background-color: #2d3133;
 }
 
 .container {
@@ -43,7 +43,7 @@ body {
 
 .display {
   flex: 10;
-  background-color: rgb(232, 241, 255);
+  background-color: #1e2122;
   padding: 2rem;
 }
 
@@ -62,9 +62,11 @@ body {
   flex: 10;
   padding: 1rem;
   font-size: 1.2rem;
+  background-color: #2b2a33;
 }
 
 .input .send {
-  background-color: #ccc;
+  background-color: #35393b;
+  color: #fff;
   flex: 1;
 }
