@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+  background-color: #dadada;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+.video {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* gap: =rem; */
+}
+.cam {
+  padding: 1rem;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.chat {
+  flex: 5;
+  display: flex;
+  flex-direction: column;
+  /* background-color: bisque; */
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.display {
+  flex: 10;
+  background-color: rgb(232, 241, 255);
+  padding: 2rem;
+}
+
+.display li {
+  list-style: none;
+}
+
+.input {
+  flex: 1;
+  /* background-color: chocolate; */
+  display: flex;
+  gap: 1rem;
+}
+
+.input #msg {
+  flex: 10;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+
+.input .send {
+  background-color: #ccc;
+  flex: 1;
+}
